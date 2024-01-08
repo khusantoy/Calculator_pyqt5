@@ -1,7 +1,6 @@
 from PyQt5.QtWidgets import (
     QApplication,
     QWidget,
-    QLabel,
     QLineEdit,
     QPushButton,
     QHBoxLayout,
@@ -12,7 +11,7 @@ class Button(QPushButton):
     def __init__(self, text) -> None:
         super().__init__(text)
         self.setFixedSize(100, 50)
-        self.setStyleSheet('font-size: 24px; font-style:"Algerian"')
+        self.setStyleSheet('font-size: 24px')
 
 class Button1(QPushButton):
     def __init__(self, text) -> None:
